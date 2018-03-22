@@ -3,7 +3,7 @@ job('Spring3Hibernate Compile') {
         git {
             remote
             {
-            url("https://github.com/opstr/ContinuousIntegration.git")
+            url('https://github.com/opstr/ContinuousIntegration.git')
             }
             branch('master')
         }
@@ -11,7 +11,7 @@ job('Spring3Hibernate Compile') {
    
     steps {
         maven{
-         mavenInstallation("Maven 3.5.3")
+         mavenInstallation('Maven 3.5.3')
          rootPOM('Spring3HibernateApp/pom.xml')
          goals('clean compile')   
         }
