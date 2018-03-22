@@ -5,7 +5,7 @@ job('Spring3Hibernate Compile') {
             {
             url("https://github.com/opstr/ContinuousIntegration.git")
             }
-            createTag(false)
+            branch('master')
         }
     }
    
