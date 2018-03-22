@@ -11,7 +11,7 @@ job('Spring3Hibernate Compile') {
    
     steps {
         maven{
-         mavenInstallation('maven')
+         mavenInstallation('Maven')
          rootPOM('Spring3HibernateApp/pom.xml')
          goals('clean compile')     
         }
