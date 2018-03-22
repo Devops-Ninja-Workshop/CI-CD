@@ -1,7 +1,10 @@
 job('Spring3Hibernate Compile') {
     scm {
         git {
+            remote
+            {
             url("https://github.com/opstr/ContinuousIntegration.git")
+            }
             createTag(false)
         }
     }
