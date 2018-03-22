@@ -1,6 +1,6 @@
-job(Spring3Hibernate Compile) {
+job('Spring3Hibernate Compile') {
     scm {
-        git('https://github.com/opstr/ContinuousIntegration.gi)
+        git('https://github.com/opstr/ContinuousIntegration.git')
     }
    
     steps {
