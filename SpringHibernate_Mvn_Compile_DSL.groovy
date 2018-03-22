@@ -3,6 +3,7 @@ job('Spring3Hibernate Compile') {
         git {
             url("https://github.com/opstr/ContinuousIntegration.git")
             createTag(false)
+        }
     }
    
     steps {
