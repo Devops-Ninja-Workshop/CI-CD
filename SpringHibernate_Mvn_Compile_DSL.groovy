@@ -1,4 +1,4 @@
-job('Spring3Hibernate Compile') {
+job('Spring3Hibernate Compile2') {
     scm {
         git {
             remote
