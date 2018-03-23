@@ -1,5 +1,5 @@
 
-job('Spring3Hibernate Code Stability') {
+job('Spring3Hibernate Deploy') {
     scm {
         git {
             remote
