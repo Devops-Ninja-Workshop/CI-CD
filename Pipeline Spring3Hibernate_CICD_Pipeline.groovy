@@ -7,7 +7,7 @@ pipeline
         { 
             steps 
             {
-                build('Spring3Hibernate Code Coverage')
+                build('Spring3Hibernate Code Stability')
             }
         }
         stage('Code Quality') 
