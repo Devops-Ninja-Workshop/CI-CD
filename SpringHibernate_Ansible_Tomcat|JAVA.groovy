@@ -2,10 +2,10 @@ job('ansible-job') {
 
     steps {
 
-      ansiblePlaybook('/ansible/playbook.yml') {  
+      ansiblePlaybook('roles/tomcat.yml') {  
 
 
-        inventoryPath('/ansible/hosts')  
+        inventoryPath('/etc/ansible/hosts')  
 
         ansibleName('ansible-1')  
 
