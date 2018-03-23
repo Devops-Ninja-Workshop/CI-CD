@@ -14,7 +14,7 @@ job('Spring3Hibernate Code Quality') {
         maven{
          mavenInstallation('Maven')
          rootPOM('Spring3HibernateApp/pom.xml')
-         goals('')     
+         goals('findbugs:findbugs checkstyle:checkstyle')     
         }
       
     }
