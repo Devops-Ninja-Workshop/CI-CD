@@ -1,4 +1,4 @@
-job('Spring3Hibernate Compile2') {
+job('Spring3Hibernate Compile') {
     scm {
         git {
             remote
@@ -11,7 +11,7 @@ job('Spring3Hibernate Compile2') {
    
     steps {
         maven{
-         mavenInstallation('Maven')
+         mavenInstallation('')
          rootPOM('Spring3HibernateApp/pom.xml')
          goals('clean compile')     
         }
