@@ -13,7 +13,7 @@ job('CD-Spring3Hibernate WAR_FILE ') {
         maven{
          mavenInstallation('Maven')
          rootPOM('Spring3HibernateApp/pom.xml')
-         goals('install:install')     
+         goals('jar:jar install:install')     
         }
       
     }
