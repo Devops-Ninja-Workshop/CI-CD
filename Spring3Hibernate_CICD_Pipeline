@@ -7,21 +7,21 @@ pipeline
         { 
             steps 
             {
-                build('Spring3Hibernate Code Stability')
+                build('CI-Spring3Hibernate Code Stability')
             }
         }
         stage('Code Quality') 
         { 
             steps 
             {
-                build('Spring3Hibernate Code Quality')
+                build('CI-Spring3Hibernate Code Quality')
             }
         }
         stage('Code Coverage') 
         { 
             steps 
             {
-                build('Spring3Hibernate Code Coverage')
+                build('CI-Spring3Hibernate Code Coverage')
             }
         }
     }
