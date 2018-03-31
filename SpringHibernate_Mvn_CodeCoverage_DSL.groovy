@@ -1,5 +1,5 @@
 
-job('Spring3Hibernate Code Coverage') {
+job('CI-Spring3Hibernate Code Coverage') {
     scm {
         git {
             remote
