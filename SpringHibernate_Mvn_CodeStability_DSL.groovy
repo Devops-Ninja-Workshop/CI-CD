@@ -1,4 +1,4 @@
-job('Spring3Hibernate Code Stability') {
+job('CI-Spring3Hibernate Code Stability') {
     scm {
         git {
             remote
