@@ -1,4 +1,4 @@
-job('SpringHibernate_CI_CD_Pipeline')
+pipelinejob('SpringHibernate_CI_CD_Pipeline')
 {
 pipeline 
 {
